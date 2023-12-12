@@ -1,0 +1,21 @@
+html { height: 100%; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: $secondary;
+  background-color: $bg-color-primary;
+}
+
+header { min-height: 10vh; }
+main   { min-height: 60vh; }
+footer { min-height: 30vh; }
